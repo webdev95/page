@@ -1,0 +1,27 @@
+body {
+    background-color: #e0d6ff;
+    overflow: hidden;
+}
+
+#gojo {
+    height: 500px;
+    position: absolute;
+    bottom: -17px;
+    transition: right 5s;
+    
+}
+
+.initial {
+    right: -375px;
+}
+
+.slide {
+    right: 0px;  
+}
+
+.buttonContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
