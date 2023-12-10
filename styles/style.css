@@ -11,14 +11,27 @@ body {
     
 }
 
+
+
 .initial {
     right: -375px;
 }
 
-.slide {
+
+
+@media only screen and (max-width: 600px) {
+    #gojo {
+        height: 200px;
+
+        
+    }
+    .initial {
+        right: -160px;
+    }
+  }
+  .slide {
     right: 0px;  
 }
-
 .buttonContainer {
     display: flex;
     height: 100vh;
